@@ -1,0 +1,82 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <title>PEfoundation</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>  
+<body>
+    <section class="sub-header">
+  <nav>
+  <a href="index.html"><img src="images/sma.JPG" width="140" height="140"/></a>
+<div class="nav-links" id="navlinks">
+     <i class="fa fa-times" onclick="hideMenu()"></i>  
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="">Courses</a></li>
+<li><a href="">Explore Countries</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul> 
+</div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+      
+<h1>EXPLORE</h1>
+</section>
+
+     
+<!----------Countries---------------->
+<section class="countries-tab">
+<div class="countries-col-tab">
+ <img src="images/Bangladesh.jpg" width="200" height="400">
+  <img src="images/India.jpg" width="200" height="400">
+    <img src="images/China.jpg" width="200" height="400">
+       <img src="images/Egypt.jpg" width="200" height="400">
+          <img src="images/Mongolia.jpg" width="200" height="400">
+              <img src="images/philippines.jpg" width="200" height="400">
+                 <img src="images/Kazakhstan.jpg" width="200" height="400">
+</div>
+</section>
+
+
+<!-------footer------->
+<section class="footer">
+   <h4>About Us</h4>
+<p>Put some text in here.</p>
+
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+   <p>Some text in here about foundation</p>
+
+</section>
+
+
+
+
+
+
+    
+    <!-------JavaScript for Toggle Menu------>
+<script>
+   var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+       navlinks.style.right = "0";
+                       }
+    function hideMenu(){
+       navlinks.style.right = "-200px";    
+                       }
+
+
+
+
+</script>
+
+</body>
+
+</html>
